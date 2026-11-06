@@ -1,7 +1,3 @@
-<div align="center">
-
-<img src="https://m3ue.sparkison.dev/img/logo.png" width="96" alt="M3U Editor Suite logo">
-
 # M3U Editor Suite
 
 **Your IPTV, fully under control.**
@@ -23,8 +19,8 @@ Self-hosted tools for managing and watching live TV, movies, series, guide data,
 
 Your players only ever talk to M3U Editor. Swap providers, fix channel names, or fill in missing guide data, and every device picks up the change without being reconfigured.
 
-| Your sources | | The suite | | Your players |
-| :--- | :arrow_right: | :---: | :arrow_right: | :--- |
+| Your sources | ➡️ | The suite | ➡️ | Your players |
+| :--- | :---: | :---: | :---: | :--- |
 | IPTV providers (M3U, Xtream)<br>XMLTV and Schedules Direct<br>Emby, Jellyfin, and Plex<br>Local and WebDAV media<br>AIOStreams and the \*arrs | | **M3U Editor** cleans, merges, maps, and enriches<br>**M3U Proxy** handles the streams | | **M3U TV**<br>Plex, Emby, and Jellyfin<br>TiviMate, Kodi, and VLC<br>Any Xtream or M3U app |
 
 ## 🧩 The apps
@@ -57,7 +53,7 @@ curl -O https://raw.githubusercontent.com/m3ue/m3u-editor/master/docker-compose.
 docker compose -f docker-compose.proxy.yml up -d
 ```
 
-Then open `http://localhost:36400` and sign in with `admin` / `admin`.
+Then open `http://localhost:36400` and sign in with `admin` / `admin`. You'll be asked to choose a new password straight away.
 
 The [Quick Start](https://m3ue.sparkison.dev/docs/quick_start) covers the other setups, and the [compose wizard](https://m3ue.sparkison.dev/compose-wizard) builds a config for you. Prefer not to host it yourself? [ElfHosted](https://store.elfhosted.com/product/m3u-editor/) offers fully managed instances.
 
@@ -84,4 +80,4 @@ Want to build your own? See the [plugin developer guide](https://m3ue.sparkison.
 
 ---
 
-<sub>M3U Editor, M3U Proxy, and M3U TV are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>. The suite is an independent set of tools, not an IPTV provider: it doesn't host channels or partner with streaming services. Only use content you're authorized to access.</sub>
+<sub>M3U Editor and M3U Proxy are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>, and M3U TV under <a href="https://github.com/m3ue/m3u-tv/blob/master/LICENSE">GPL-3.0</a>. The suite is an independent set of tools, not an IPTV provider: it doesn't host channels or partner with streaming services. Only use content you're authorized to access.</sub>
